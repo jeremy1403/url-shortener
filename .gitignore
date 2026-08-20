@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment files (contain secrets — never commit these)
+.env
+.env.local
+.env.prod
+.env.*.local
+
+# Build output
+dist/
+.next/
+out/
+
+# SSH keys (in case one ever gets copied into the project folder)
+*.pem
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
